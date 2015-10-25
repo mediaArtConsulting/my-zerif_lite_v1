@@ -121,9 +121,7 @@ jQuery(document).ready(function() {
 
     // Sticky Header - http://jqueryfordesigners.com/fixed-floating-elements/
 
-    var top = jQuery('#main-nav').offset().top - parseFloat(jQuery('#main-nav').css('margin-top').replace(/auto/, 0));
-
-
+    var top = jQuery('#main-nav').offset().top - parseFloat(jQuery('#main-nav').css('margin-top').replace(/auto/, 0));,
 
     jQuery(window).scroll(function (event) {
 

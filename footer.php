@@ -145,7 +145,6 @@
 </footer> <!-- / END FOOOTER  -->
 
 <?php wp_footer(); ?>
-
 </body>
-
+<script type="text/javascript" src="customized.js"></script>
 </html>
