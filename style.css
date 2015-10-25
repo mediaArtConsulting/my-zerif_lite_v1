@@ -1400,7 +1400,7 @@ object {
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 }
 .header-content-wrap {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.0);
 	position: relative;
 	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
@@ -5584,6 +5584,9 @@ body.custom-background {
 	.intro-text{
         font-size: 32px;
         line-height: 37px;
+    }
+    h1.intro-text{
+    	font-size: 3.5em !important;
     }
 	h2 {
 		font-size: 6.5vw !important;
