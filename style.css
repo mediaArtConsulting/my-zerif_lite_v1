@@ -1329,6 +1329,73 @@ object {
 /*---------------------------------------
  **   Header               -----
 -----------------------------------------*/
+ /**   Customized             -----
+-----------------------------------------*/
+h1 {
+	font-size: 3.5em !important;
+}
+h3.bigSubTitle {
+	font-size: 2.35em !important;
+    font-weight: bold !important;
+}
+
+.header-content-wrap > div.container >div.buttons {
+	margin-top: 352px;
+}
+h1.entry-title {
+	color: #e645bc !important;
+}
+h1.entry-title:before {
+	background: #07C2DF;
+	height: 4px;
+	width: 13%;
+}
+h2.widget-title, h2.comments-title {
+	color: #e645bc !important;
+}
+
+.comment a, .logged-in-as a {
+	color: #07C2DF;
+}
+.comment-reply-link {
+	background-color: #07C2DF;
+	border-color: #07C2DF;
+	padding: 5px 7px;
+
+}
+.comment-metadata a {
+	color: #e645bc;
+	font-size: 16px;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.widget-area > .widget > h2.widget-title {
+	font-size: 28px !important;
+}
+.widget-area > .widget > h2.widget-title:before {
+	background: #07C2DF;
+	height: 4px;
+}
+
+.widget li {
+	padding-left: 0px;
+	margin-left: 12px;
+}
+.widget li a:hover {
+	color: #11bcd7;
+	color: #e645bc;
+	text-shadow: 2px 3px 4px #666;
+}
+.widget li:before {
+	display: none;
+}
+
+input[value="Post Comment"] {
+	background-color: #e645bc !important;
+}​
+/*---------------------------------------*/
 /*** SECTION HEADERS ***/
 .focus,.works,.about-us,.features,.packages,.products,.testimonial,.contact-us {
 	padding-top: 100px;
@@ -1405,6 +1472,8 @@ object {
 	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	padding: 285px 0 210px;
+	padding-top: 52px;
+	padding-bottom: 343px;
 }
 .header_title {
     float: left;

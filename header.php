@@ -18,7 +18,6 @@
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/ie.css" type="text/css">
 <![endif]-->
-<script src="https://togetherjs.com/togetherjs-min.js"></script>
 <?php wp_head(); ?>
 
 </head>
