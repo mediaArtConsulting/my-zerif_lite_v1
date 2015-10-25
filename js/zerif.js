@@ -121,7 +121,7 @@ jQuery(document).ready(function() {
 
     // Sticky Header - http://jqueryfordesigners.com/fixed-floating-elements/
 
-    var top = jQuery('#main-nav').offset().top - parseFloat(jQuery('#main-nav').css('margin-top').replace(/auto/, 0));,
+    var top = jQuery('#main-nav').offset().top - parseFloat(jQuery('#main-nav').css('margin-top').replace(/auto/, 0));
 
     jQuery(window).scroll(function (event) {
 
@@ -365,14 +365,15 @@ jQuery('.navbar-toggle').on('click', function () {
 
 /* SETS THE HEADER HEIGHT */
 jQuery(window).load(function(){
-    //setminHeightHeader();
+    setminHeightHeader();
 });
 jQuery(window).resize(function() {
-    //setminHeightHeader();
+    setminHeightHeader();
 });
 function setminHeightHeader()
 {
-    jQuery('#main-nav').css('min-height','75px');
+    //jQuery('#main-nav').css('min-height','75px');
+    jQuery('#main-nav').css('min-height','0px');
     jQuery('.header').css('min-height','75px');
     var minHeight = parseInt( jQuery('#main-nav').height() );
     jQuery('#main-nav').css('min-height',minHeight);
