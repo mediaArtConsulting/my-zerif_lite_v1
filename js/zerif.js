@@ -365,10 +365,10 @@ jQuery('.navbar-toggle').on('click', function () {
 
 /* SETS THE HEADER HEIGHT */
 jQuery(window).load(function(){
-    setminHeightHeader();
+    //setminHeightHeader();
 });
 jQuery(window).resize(function() {
-    setminHeightHeader();
+    //setminHeightHeader();
 });
 function setminHeightHeader()
 {
