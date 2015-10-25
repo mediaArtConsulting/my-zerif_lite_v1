@@ -50,6 +50,6 @@
 	endif; ?>
 
 <header id="home" class="header">
-	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner"></div>div>
+	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner"></div>
 
 	<!-- / END TOP BAR -->
