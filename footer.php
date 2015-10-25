@@ -146,5 +146,5 @@
 
 <?php wp_footer(); ?>
 </body>
-<script type="text/javascript" src="customized.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/customized.js"></script>
 </html>
